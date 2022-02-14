@@ -1,0 +1,4 @@
+[console_scripts]
+uvicorn = uvicorn_browser.main:main
+uvicorn-browser = uvicorn_browser.main:main
+

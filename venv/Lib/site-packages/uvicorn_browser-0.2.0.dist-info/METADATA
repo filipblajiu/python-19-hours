@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: uvicorn-browser
+Version: 0.2.0
+Summary: Reload your Browser with code changes! :sparkles:
+Home-page: https://github.com/Kludex/uvicorn-browser
+Author: Marcelo Trylesinski
+Author-email: marcelotryle@email.com
+License: MIT
+Project-URL: Twitter, https://twitter.com/marcelotryle
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+Requires-Dist: uvicorn (==0.16.0)
+Requires-Dist: selenium
+Requires-Dist: typing-extensions ; python_version < "3.8"
+
+<h1 align="center">
+    <strong>uvicorn-browser</strong>
+</h1>
+<p align="center">
+    <a href="https://github.com/Kludex/uvicorn-browser" target="_blank">
+        <img src="https://img.shields.io/github/last-commit/Kludex/uvicorn-browser" alt="Latest Commit">
+    </a>
+        <img src="https://img.shields.io/github/workflow/status/Kludex/uvicorn-browser/Test">
+        <img src="https://img.shields.io/codecov/c/github/Kludex/uvicorn-browser">
+    <br />
+    <a href="https://pypi.org/project/uvicorn-browser" target="_blank">
+        <img src="https://img.shields.io/pypi/v/uvicorn-browser" alt="Package version">
+    </a>
+    <img src="https://img.shields.io/pypi/pyversions/uvicorn-browser">
+    <img src="https://img.shields.io/github/license/Kludex/uvicorn-browser">
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7353520/145871783-f0a08a45-4baf-4f8a-bd48-c3747c4f1e37.gif" alt="uvicorn-browser" />
+</p>
+
+This project is inspired by [autoreload](https://github.com/ChillFish8/autoreload/tree/master).
+
+## Installation
+
+```bash
+pip install uvicorn-browser
+```
+
+## License
+
+This project is licensed under the terms of the MIT license.
+
+
